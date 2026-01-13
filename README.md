@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  A marketplace of Claude Code plugins for project management, design engineering, and more.
+  Plugins for project management and design engineering.
 </p>
 
 ---
@@ -23,7 +23,7 @@
 /plugin marketplace add Dammyjay93/oakinleye
 ```
 
-Then install plugins:
+Then install what you need:
 
 ```
 /plugin install claudepm
@@ -38,14 +38,14 @@ Restart Claude Code after installing.
 
 ### [claudepm](https://github.com/Dammyjay93/claudepm)
 
-**Real project management for Claude Code.**
+**Context that persists.**
 
-Stop re-explaining context every session. PRDs, epics, and decisions that persist — so Claude always knows the project, the plan, and what's next.
+Stop re-explaining your project every session. PRDs, epics, tasks, and decisions that carry forward — so Claude knows what you're building and what's next.
 
-| Command | Description |
-|---------|-------------|
+| Command | What it does |
+|---------|--------------|
 | `/claudepm` | Smart dispatcher |
-| `/claudepm plan` | Create project from conversation |
+| `/claudepm plan` | Create a project from conversation |
 | `/claudepm start` | Begin working on a task |
 | `/claudepm done` | Mark task complete |
 | `/claudepm save` | Save session notes |
@@ -55,16 +55,16 @@ Stop re-explaining context every session. PRDs, epics, and decisions that persis
 
 ### [design-engineer](https://github.com/Dammyjay93/design-engineer)
 
-**Design engineering for Claude Code.**
+**Design decisions that stick.**
 
-Craft, direction, memory, enforcement. Build interfaces with intention, maintain consistency across sessions, catch drift before it compounds.
+When you build UI, choices get made — colors, spacing, depth, typography. This plugin helps you make those choices intentionally, records them, and keeps future work consistent.
 
-| Command | Description |
-|---------|-------------|
+| Command | What it does |
+|---------|--------------|
 | `/ds-engineer` | Smart dispatcher |
-| `/ds-engineer status` | Show design system state |
-| `/ds-engineer audit <path>` | Check code against system |
-| `/ds-engineer extract` | Extract patterns from code |
+| `/ds-engineer status` | Show your design system state |
+| `/ds-engineer audit <path>` | Check code against your system |
+| `/ds-engineer extract` | Extract patterns from existing code |
 | `/ds-engineer generate` | Generate tokens.css, tailwind preset |
 
 ---

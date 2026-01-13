@@ -1,0 +1,29 @@
+{
+  "name": "oakinleye",
+  "description": "Claude Code plugins by Damola Akinleye. Project management, design engineering, and more.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Damola Akinleye",
+    "url": "https://github.com/Dammyjay93"
+  },
+  "plugins": [
+    {
+      "name": "claudepm",
+      "description": "Real project management for Claude Code. PRDs, epics, and decisions that persist across sessions.",
+      "source": {
+        "type": "github",
+        "repo": "Dammyjay93/claudepm"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "design-engineer",
+      "description": "Design engineering for Claude Code. Craft, direction, memory, enforcement.",
+      "source": {
+        "type": "github",
+        "repo": "Dammyjay93/design-engineer"
+      },
+      "category": "design"
+    }
+  ]
+}

@@ -20,13 +20,13 @@
     },
     {
       "name": "design-engineer",
-      "description": "Design engineering for Claude Code. Craft, direction, memory, enforcement.",
+      "description": "Design engineering for Claude Code. Build interfaces with craft, memory, and enforcement.",
       "source": {
         "source": "url",
-        "url": "https://github.com/Dammyjay93/design-engineer.git"
+        "url": "https://github.com/Dammyjay93/claude-design-engineer.git"
       },
       "category": "design",
-      "homepage": "https://github.com/Dammyjay93/design-engineer"
+      "homepage": "https://github.com/Dammyjay93/claude-design-engineer"
     }
   ]
 }

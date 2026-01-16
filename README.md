@@ -53,7 +53,7 @@ Stop re-explaining your project every session. PRDs, epics, tasks, and decisions
 
 ---
 
-### [design-engineer](https://github.com/Dammyjay93/design-engineer)
+### [design-engineer](https://github.com/Dammyjay93/claude-design-engineer)
 
 **Design decisions that stick.**
 
@@ -61,11 +61,10 @@ When you build UI, choices get made — colors, spacing, depth, typography. This
 
 | Command | What it does |
 |---------|--------------|
-| `/ds-engineer` | Smart dispatcher |
-| `/ds-engineer status` | Show your design system state |
-| `/ds-engineer audit <path>` | Check code against your system |
-| `/ds-engineer extract` | Extract patterns from existing code |
-| `/ds-engineer generate` | Generate tokens.css, tailwind preset |
+| `/design-engineer` | Smart dispatcher |
+| `/design-engineer status` | Show your design system state |
+| `/design-engineer audit <path>` | Check code against your system |
+| `/design-engineer extract` | Extract patterns from existing code |
 
 ---
 
